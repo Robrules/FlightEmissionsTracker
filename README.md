@@ -1,4 +1,4 @@
-# ELEC5619_Project: Flight Emissions Tracker
+Flight Emissions Tracker
 
 This is a Flight Emissions Tracker web application. See the respective directories for more information:
 
