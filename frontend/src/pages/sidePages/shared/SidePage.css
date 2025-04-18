@@ -1,0 +1,26 @@
+.people div {
+  margin: 5px;
+  text-align: center;
+}
+
+.people div img {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 5px;
+}
+
+.people div h5,
+.people div h6 {
+  margin-top: 10px;
+}
+
+#our_calculations_text,
+#about_us_text {
+  text-align: justify;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.display_box h1 {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+{
+  "code" : 200,
+  "legs" : [ {
+    "co2e" : 351461.15008945775,
+    "passengers" : 253,
+    "from" : "SYD",
+    "to" : "PER",
+    "class" : "economy"
+  } ]
+}

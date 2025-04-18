@@ -1,0 +1,47 @@
+.display_box {
+  width: 80%;
+  margin: 50px auto auto auto;
+  padding: 40px 50px 20px 50px;
+  background-color: lightgray;
+  border: 1px solid black;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.display_box table {
+  margin: 20px 0px 20px 0px;
+}
+
+.display_box td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.display_box button {
+  padding: 10px 50px 10px 50px;
+}
+
+.button_right {
+  float: right;
+}
+
+.display_box input,
+.display_box select {
+  background-color: lightgray;
+  border: none;
+  width: 100%;
+}
+
+.details_td {
+  width: 100%;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.map-container button {
+  display: none;
+}

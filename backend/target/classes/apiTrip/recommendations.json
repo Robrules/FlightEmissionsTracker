@@ -1,0 +1,9 @@
+{
+  "code" : 200,
+  "legs" : [ {
+    "flights_found" : true,
+    "from" : "SYD",
+    "to" : "PER",
+    "recommendations" : [ "QFA645", "VOZ551", "VOZ555" ]
+  } ]
+}

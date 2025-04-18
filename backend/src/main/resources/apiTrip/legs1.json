@@ -1,0 +1,16 @@
+{
+  "legs": [
+    {
+      "from": "ATL",
+      "to": "CDG",
+      "passengers": 2,
+      "class": "first"
+    },
+    {
+      "from": "BLR",
+      "to": "BOM",
+      "passengers": 2,
+      "class": "economy"
+    }
+  ]
+}

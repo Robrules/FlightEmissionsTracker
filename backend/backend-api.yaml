@@ -1,0 +1,223 @@
+openapi: 3.0.3
+info:
+  title: Flight Emission Tracker
+  description: |-
+    This is the documentation for the backend API for Flight Emission Tracker.
+  version: 1.0.0
+paths:
+  /trip/carbonEmissions:
+    post:
+      tags:
+        - trip
+      summary: Calculate an estimate of carbon emission of trip
+      description: Multiple flights in a JSON array needs to be provided
+      operationId: calculateCarbonEmissions
+      requestBody:
+        description: Get carbon emission estimate for trip
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Trip'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: number
+        '400':
+          description: Invalid parameters and/or invalid formatting
+  /trip/recommendations:
+    post:
+      tags:
+        - trip
+      summary: Calculate flight recommendations for a trip
+      description: Multiple flights in a JSON array needs to be provided
+      operationId: calculateFlightRecommendations
+      requestBody:
+        description: Get recommendations for trip
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Trip'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/Trip'
+        '400':
+          description: Invalid parameters and/or invalid formatting
+  /airport/allAirports:
+    get:
+      tags:
+        - airport
+      summary: Get all airports and related information
+      description: Fetches all airport information from the database
+      operationId: getAllAirports
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Airport'
+        '400':
+          description: An error occurred
+  /flight/allFlights:
+    get:
+      tags:
+        - flight
+      summary: Get all flights and related information
+      description: Fetches all flight information from the database
+      operationId: getAllFlights
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Flight'
+        '400':
+          description: An error occurred
+  /flight/filterFlights:
+    get:
+      tags:
+        - flight
+      summary: Find all flights matching the source and destination provided
+      description: Source and destination parameters need to be provided
+      operationId: filterFlights
+      parameters:
+        - name: from
+          in: query
+          description: IATA code of the airport of departure
+          required: true
+          explode: true
+          schema:
+            type: string
+        - name: to
+          in: query
+          description: IATA code of the airport of arrival
+          required: true
+          explode: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Flight'
+        '400':
+          description: Invalid parameters and/or invalid formatting
+components:
+  schemas:
+    Leg:
+      type: object
+      properties:
+        source:
+          type: object
+          items:
+            $ref: '#/components/schemas/Airport'
+        destination:
+          type: object
+          items:
+            $ref: '#/components/schemas/Airport'
+        capacity:
+          type: integer
+          format: int32
+          example: 300
+        class:
+          type: string
+          description: Flight Class
+          example: economy
+          enum:
+            - economy
+            - business class
+            - first class
+        complete:
+          type: boolean
+    Trip:
+      type: array
+      items:
+        $ref: '#/components/schemas/Leg'
+    Flight:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 100
+        flightNumber:
+          type: string
+          example: QF 463
+        airline:
+          type: string
+          example: Qantas
+        aircraft:
+          type: object
+          items:
+            $ref: '#/components/schemas/Aircraft'
+        source:
+          type: object
+          items:
+            $ref: '#/components/schemas/Airport'
+        destination:
+          type: object
+          items:
+            $ref: '#/components/schemas/Airport'
+        distance:
+          type: integer
+          description: distance in km from source to destination
+          example: 749
+        estimatedTime:
+          type: integer
+          format: int64
+          description: time (in minutes)
+          example: 90
+    Airport:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 20
+        code:
+          type: string
+          example: SYD
+        country:
+          type: string
+          example: Australia
+        city:
+          type: string
+          example: Sydney
+        name:
+          type: string
+          example: Sydney Kingsford Smith Airport
+    Aircraft:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 1
+        capacity:
+          type: integer
+          format: int32
+          example: 500
+        yearManufactured:
+          type: integer
+          format: int32
+          example: 2018

@@ -1,0 +1,28 @@
+#header {
+  border: 1px solid black;
+}
+
+#header button {
+  font-size: 25px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+#header button:hover {
+  color: blue;
+}
+
+#website_name_div {
+  padding: 0px 10px 0px 30px;
+}
+
+#website_name_div button {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#header_buttons_div {
+  display: flex;
+  justify-content: space-around;
+}

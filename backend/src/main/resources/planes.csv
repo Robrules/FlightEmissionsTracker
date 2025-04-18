@@ -1,0 +1,109 @@
+model,capacity,code,year_of_manufacture,thumb
+Boeing 737-800,189,B738,1997,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Boeing_737-800.png
+A220 100,135,BCS1,2008,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A220_100.jpg
+A220 300,160,BCS3,2008,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A220_300.jpg
+A300B4-200,345,A30B,1967,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A300B4-200.jpg
+A300-600R,345,A306,1967,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330_600R.jpg
+A318,107,A318,2002,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A318.jpg
+A319 Neo,140,A19N,2019,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A319_Neo.jpg
+A320 Neo,165,A20N,2014,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A320_Neo.jpg
+A321 Neo,190,A321,2016,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A321_Neo.jpg
+A330-200ceo,253,A332,1987,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330-200ceo.jpg
+A330-300ceo,295,A333,2010,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330-300ceo.jpg
+A330-800neo,257,A338,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330-800neo.jpg
+A330-900neo,287,A339,2019,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330-900neo.jpg
+A340 200,300,A342,1993,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A340_200.jpg
+A340 300,335,A343,1993,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A340_300.jpg
+A340 500,359,A345,2002,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A340_500.jpg
+A340 600,419,A346,2002,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A340_600.jpg
+A350-800 XWB,270,A358,2010,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A350-800.jpg
+A350-900 XWB,314,A359,2010,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A350-900.jpg
+A350-1000 XWB,350,A35K,2011,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A350-1000.jpg
+A380-800,555,A388,2005,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A380-800.jpg
+ATR 42-300,48,AT43,1990,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_42-300.jpg
+ATR 42-320,48,AT43,1996,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_42-320.jpg
+ATR 42-400,48,AT44,1993,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_42-400.jpg
+ATR 42-500,48,AT45,1993,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_42-500.jpg
+ATR 42-600,48,AT46,2007,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_42-600.jpg
+ATR 72-200,66,AT72,1988,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_72-200.jpg
+ATR 72-210,66,AT73,1990,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_72-210.jpg
+ATR 72-500,68,AT75,1992,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_72-500.jpg
+ATR 72-600,70,AT76,1994,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ATR_72-600.jpg
+BAe 146-100/RJ70,82,B461,1981,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/BAe_146-100_RJ70.jpg
+BAe 146-200/RJ85,100,B462,1982,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/BAe_146-200_RJ85.jpg
+BAe 146-300/RJ100,112,B463,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/BAe_146-300_RJ100.jpg
+727 100,131,B721,1963,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/727_100.jpg
+727 200,189,B722,1967,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/727_200.jpg
+737 100,124,B731,1965,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_100.jpg
+737 200ADV,136,B732,1965,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_200ADV.jpg
+737 300,149,B733,1980,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_300.jpg
+737 400,188,B734,1985,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_400.jpg
+737 500,140,B735,1987,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_500.jpg
+737 600,149,B736,1995,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_600.jpg
+737 700,149,B737,1993,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_700.jpg
+737 800,189,B738,1994,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_800.jpg
+737 900,215,B739,1997,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_900.jpg
+737 MAX 7,149,B37M,2019,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_MAX_7.jpg
+737 MAX 8,189,B38M,2013,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_MAX_8.jpg
+737 MAX 200,200,B72M,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_MAX_200.jpg
+737 MAX 9,220,B79M,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_MAX_9.jpg
+737 MAX 10,244,B3XM,2019,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/737_MAX_10.jpg
+747 100,452,B741,1970,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_100.jpg
+747 SP,331,B74S,1976,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_SP.jpg
+747 200,452,B741,1971,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_200.jpg
+747 300,496,B743,1986,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_300.jpg
+747 400,524,B744,1989,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_400.jpg
+747 8i,605,B748,2005,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_8i.jpg
+757 200,239,B752,1983,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/757_200.jpg
+757 300,295,B753,1999,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/757_300.jpg
+767 200,290,B762,1982,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/767_200.jpg
+767 200ER,290,B762,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/767_200_ER.jpg
+767 300,351,B763,1986,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/767_300.jpg
+767 300ER,351,B763,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/767_300_ER.jpg
+767 400ER,375,B764,2014,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/767_400ER.jpg
+777 200,440,B772,1994,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_200.jpg
+777 200ER,440,B772,2018,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_200ER.jpg
+777 200LR,440,B77L,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_200_LR.jpg
+777 300,550,B773,1997,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_300.jpg
+777 300ER,550,B77W,2004,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_300ER.jpg
+777 8,384,B778,2021,
+777 9,414,B779,2018,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_9.jpg
+787 8,242,B788,2011,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/787_8.jpg
+787 9,280,B789,2014,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/787_9.jpg
+787 10,330,B78X,2013,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/787_10.jpg
+CRJ 700,78,CRJ7,1990,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_700.jpg
+CRJ 900,90,CRJ9,1990,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_900.jpg
+CRJ 1000,104,CRJX,1990,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_1000.jpg
+Dash 8-100,37,DH8A,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Dash_8-100.jpg
+Dash 8-200,37,BH8B,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Dash_8-200.jpg
+Dash 8-300,50,DH8C,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Dash_8-300.jpg
+Dash 8-400,78,DH8D,1984,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Dash_8-400.jpg
+C919 Mixed Class,158,C919,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/C919_Mixed_Class.jpg
+C919 All Economy,168,C919,2017,
+C919 High Density,174,C919,2017,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/C919_High_Density.jpg
+Tupolev Tu-144 (Super Sonic Transport),120,T144,1972,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Tupolev_Tu-144_Super_Sonic_Transport.jpg
+DC 9-10,109,DC91,1965,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-10.jpg
+DC 9-20,109,DC92,1972,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-20.jpg
+DC 9-30,127,DC93,1979,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-30.jpg
+DC 9-40,128,DC94,1980,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-40.jpg
+DC 9-50,139,DC95,1982,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-50.jpg
+DC 8-10,177,DC81,1958,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-10.jpg
+DC 8-20,177,DC82,1960,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-20.jpg
+DC 8-30,177,DC83,1962,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-30.jpg
+DC 8-40,177,DC84,1964,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-40.jpg
+DC 8-50,189,DC85,1966,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-50.jpg
+DC 8-60,259,DC86,1968,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-60.jpg
+DC 8-70,259,DC87,1972,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-70.jpg
+ERJ 170,80,EJ170,2004,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ERJ_170.jpg
+ERJ 175,88,EJ175,2005,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ERJ_175.jpg
+ERJ 190,114,EJ190,2006,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ERJ_190.jpg
+ERJ 195,122,EJ195,2006,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/ERJ_195.jpg
+Fokker 70,85,F70,1994,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Fokker_70.jpg
+Fokker 100 Rolls Royce Tay 620,122,F100,1986,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Fokker_100_Rolls_Royce_Tay_620.jpg
+Fokker 100 Rolls Royce Tay 650,122,F100,1986,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/Fokker_100_Rolls_Royce_Tay_650.jpg
+L1011-1,400,L1011,1972,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/L1011-1.jpg
+L1011-200,400,L1012,1975,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/L1011-200.jpg
+L-1011-500,330,L1015,1978,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/L-1011-500.jpg
+DC-10-10,399,DC10,1971,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_10-10.jpg
+DC-10-30,380,DC10,1972,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_10-30.jpg
+DC-10-40,399,DC10,1973,https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_10-40.jpg

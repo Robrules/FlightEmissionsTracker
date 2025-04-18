@@ -1,0 +1,13 @@
+com/example/demo/controller/TripController.class
+com/example/demo/repository/AirportRepository.class
+com/example/demo/DatabaseConnector.class
+com/example/demo/controller/AirportController.class
+com/example/demo/api/TripApi.class
+com/example/demo/entity/Airport.class
+com/example/demo/DemoApplication.class
+com/example/demo/entity/Flight.class
+com/example/demo/repository/AircraftRepository.class
+com/example/demo/EmissionsCalculator.class
+com/example/demo/repository/FlightRepository.class
+com/example/demo/controller/FlightController.class
+com/example/demo/entity/Aircraft.class
